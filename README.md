@@ -1,5 +1,10 @@
 # @kasifraza/env-validator
 
+[![npm package](https://img.shields.io/npm/v/@kasifraza/env-validator?color=brightgreen&label=npm%20package)](https://www.npmjs.com/package/@kasifraza/env-validator)
+[![license](https://img.shields.io/npm/l/@kasifraza/env-validator)](https://github.com/kasifraza/env-validator/blob/main/LICENSE)
+[![downloads](https://img.shields.io/npm/dw/@kasifraza/env-validator?color=brightgreen)](https://www.npmjs.com/package/@kasifraza/env-validator)
+[![Tests](https://img.shields.io/github/actions/workflow/status/kasifraza/env-validator/test.yml?label=Tests)](https://github.com/kasifraza/env-validator)
+
 Type-safe environment variable validation with defaults, coercion, and early failure. Zero dependencies.
 
 ## Install
