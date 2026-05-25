@@ -1,0 +1,48 @@
+{
+  "name": "@kasifraza/env-validator",
+  "version": "1.0.0",
+  "description": "Type-safe environment variable validation with defaults, coercion, and early failure. Zero dependencies.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "env",
+    "environment",
+    "validation",
+    "typescript",
+    "config",
+    "dotenv",
+    "env-validator",
+    "type-safe",
+    "process-env",
+    "configuration",
+    "nestjs",
+    "nodejs",
+    "backend"
+  ],
+  "author": {
+    "name": "Kasif Raza",
+    "email": "kasifraza910@gmail.com",
+    "url": "https://kasif-raza.vercel.app"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasifraza/env-validator.git"
+  },
+  "homepage": "https://github.com/kasifraza/env-validator#readme",
+  "bugs": {
+    "url": "https://github.com/kasifraza/env-validator/issues"
+  },
+  "devDependencies": {
+    "@types/jest": "29.5.14",
+    "jest": "29.7.0",
+    "ts-jest": "29.2.5",
+    "typescript": "5.6.3"
+  }
+}
