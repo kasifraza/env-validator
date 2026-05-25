@@ -1,10 +1,12 @@
 {
   "name": "@kasifraza/env-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Type-safe environment variable validation with defaults, coercion, and early failure. Zero dependencies.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest",
